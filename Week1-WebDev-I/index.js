@@ -8,19 +8,19 @@ countHeader.innerHTML = 'Counter: ' + count
 
 const addOne = () =>
 {
-    count = count + 1
+    count = count + 1;
 
-    countHeader.innerHTML = 'Counter: ' + count
+    countHeader.innerHTML = 'Counter: ' + count;
 }
 const minusOne = () =>
 {
-    count = count - 1
+    count = count - 1;
 
-    countHeader.innerHTML = 'Counter: ' + count
+    countHeader.innerHTML = 'Counter: ' + count;
 }
 const reset = () =>
 {
-    count = 0
+    count = 0;
 
-    countHeader.innerHTML = 'Counter: ' + count
+    countHeader.innerHTML = 'Counter: ' + count;
 }
