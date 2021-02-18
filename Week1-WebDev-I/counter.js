@@ -2,14 +2,6 @@ console.log("Hello World");
 
 let count = 0;
 
-const me = {name:"Jason", year:"Junior", major:"Computer Science"};
-
-document.getElementById('name').innerHTML = me.name;
-
-document.getElementById('year').innerHTML = me.year;
-
-document.getElementById('major').innerHTML = me.major;
-
 const countHeader = document.getElementById('counter')
 
 countHeader.innerHTML = 'Counter: ' + count
