@@ -1,5 +1,3 @@
-console.log("Hello World");
-
 let count = 0;
 
 const countHeader = document.getElementById('counter')
