@@ -1,0 +1,15 @@
+.counterText
+{
+
+}
+
+.button
+{
+    background-color: #8357c5;
+    border: solid black 2px;
+    border-bottom: .3rem solid darken(#8357c5, 30%);
+    color: white;
+    font-weight: 500;
+    padding: 1.2rem;
+    margin: 10px;
+}
