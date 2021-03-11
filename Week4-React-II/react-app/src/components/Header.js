@@ -1,7 +1,7 @@
 function Header () 
 {
     return (
-        <div>
+        <div class='title'>
             <h3>Week 4 - React II - Challenge</h3>
         </div>
     );

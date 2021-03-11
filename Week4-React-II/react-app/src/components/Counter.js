@@ -18,7 +18,7 @@ class Counter extends React.Component
         {
             return{
                 count: prevState.count + 1
-            };
+            }
         });
     }
     minusOne = () =>
@@ -43,7 +43,7 @@ class Counter extends React.Component
     {
         return(
             <div>
-                <h1>Count: {this.state.count}</h1>
+                <h1 class='counterText'>Count: {this.state.count}</h1>
                 <button class='button' onClick={this.addOne}>+1</button>
                 <button class='button' onClick={this.minusOne}>-1</button>
                 <button class='button' onClick={this.resetCounter}>Reset</button>
@@ -51,6 +51,6 @@ class Counter extends React.Component
         );
     }
 }
-  
+
 export default Counter;
   

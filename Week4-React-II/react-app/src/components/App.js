@@ -3,9 +3,9 @@ import Counter from './Counter';
 
 function App() {
   return (
-    <div>
+    <div className='app'>
       <Header />
-      <Counter count={99} />
+      <Counter count={0} />
     </div>
   );
 }
