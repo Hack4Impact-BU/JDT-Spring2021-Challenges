@@ -5,9 +5,7 @@ class Counter extends React.Component
     constructor(props)
     {
         super(props);
-        this.addOne = this.addOne.bind(this);
-        this.minusOne = this.minusOne.bind(this);
-        this.resetCounter = this.resetCounter.bind(this);
+        
         this.state = {
             count: props.count
         };
