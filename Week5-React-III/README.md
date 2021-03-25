@@ -1,0 +1,2 @@
+Hack4Impact - JDT - Week 5, React basics III
+The following react app is a simple to-do list app that requires knowledge of .preventDefault, setState and form actions for members to practice with React syntax and slightly more advanced react concepts
