@@ -1,6 +1,14 @@
-from flask import Flask
+from flask import Flask, render_template, request
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/', methods=["GET", "POST"])
 def helloWorld():
-    return 'Hey world, its great to be alive!!!'
+    return render_template('index.html')
+
+@app.route('/formSubmit', methods=["POST"])
+def formSubmit():
+    firstName = request.form.get("fname")
+    lastName = request.form.get("lname")
+    print(firstName)
+    print(lastName)
+    return render_template('result.html', fname = firstName, lname = lastName)
